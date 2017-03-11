@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/sampling_ikan_label"
+        android:textColor="@color/textColorDark"
+        android:textSize="@dimen/text_medium" />
+
+    <LinearLayout
+        android:id="@+id/rect_berat_ikan"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/rounded_rectangle_white"
+        android:paddingLeft="15dp"
+        android:paddingRight="19dp">
+
+        <Spinner
+            android:id="@+id/spn_pilih_kolam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center_vertical"
+            android:entries="@array/item_spinner">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/et_berat_sampling"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rounded_rectangle_white"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp">
+
+        <EditText
+            android:id="@+id/et_programpakan_input_beratSampling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:hint="@string/sampling_ikan_hint_berat"
+            android:inputType="numberDecimal"
+            android:textColor="@color/textColorDark"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/tv_satuan_berat"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:text="@string/sampling_ikan_satuan_berat"
+            android:textColor="@color/textColorDark"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="@dimen/text_small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rect_jumlah_ikan"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rounded_rectangle_white"
+        android:paddingLeft="19dp"
+        android:paddingRight="19dp">
+
+        <EditText
+            android:id="@+id/et_programpakan_input_jumlahIkan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:hint="@string/sampling_ikan_hint_jumlah"
+            android:inputType="number"
+            android:textColor="@color/textColorDark"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/tv_satuan_jumlah"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:text="@string/sampling_ikan_satuan_jumlah"
+            android:textColor="@color/textColorDark"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="@dimen/text_small" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_programpakan_proses"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rounded_rectangle_darkskyblue"
+        android:text="@string/sampling_ikan_button_proses"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/text_large" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Iwak Trial</string>
+
+    <string name="login_label">Masuk ke akun mu</string>
+    <string name="login_hint_email">Email</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_lupa_password"><u>Lupa Password</u></string>
+    <string name="login_button">Masuk</string>
+
+    <string name="laporan_terimakasih_label">Terima kasih, laporan pakan berhasil disimpan</string>
+    <string name="laporan_kematian">Terima kasih, laporan kematian ikan berhasil disimpan</string>
+    <string name="laporan_terimakasih_button_kembali">Kembali ke Menu Harian</string>
+
+    <string name="program_terimakasih_label">Terima kasih, program pakan berhasil disimpan :)</string>
+    <string name="program_terimakasih_button_kembali">Kembali ke Menu Harian</string>
+
+    <string name="sampling_ikan_label">Program pakan dari hasil sampling ini akan ditampilkan secara harian di halaman utama</string>
+    <string name="sampling_ikan_hint_berat">Berat sampling</string>
+    <string name="sampling_ikan_hint_jumlah">Jumlah ikan</string>
+    <string name="sampling_ikan_satuan_berat">gr</string>
+    <string name="sampling_ikan_satuan_berat2">kg</string>
+    <string name="sampling_ikan_satuan_berat_konversi">sak</string>
+    <string name="sampling_ikan_satuan_jumlah">ekor</string>
+    <string name="sampling_ikan_button_proses">Proses</string>
+
+    <string name="laporan_pakan_label1">Catat pakan untuk Kolam </string>
+    <string name="laporan_pakan_label2">Jumlah pakan boleh tidak sama dengan program pakan. Sesuaikan dengan nafsu makan ikan</string>
+    <string name="laporan_pakan_hint_pakan">banyaknya pakan</string>
+    <string name="laporan_pakan_satuan_pakan">gr</string>
+    <string name="laporan_pakan_button_simpan">Simpan</string>
+    <string name="laporan_pakan_button_kembali">Kembali ke Menu Harian</string>
+
+    <string name="drawer_menu">Menu</string>
+
+    <!-- Toolbar titles -->
+    <string-array name="activity_titles">
+        <item>Laporan Harian</item>
+        <item>Laporan Pakan</item>
+        <item>Sampling Ikan</item>
+        <item>Data Kolam</item>
+    </string-array>
+
+    <!--spiner optional-->
+    <string-array name="item_spinner">
+        <item>Pilih Kolam</item>
+        <item>GR 01</item>
+        <item>GR 02</item>
+        <item>GR 03</item>
+        <item>GR 04</item>
+        <item>GR 05</item>
+        <item>GR 06</item>
+    </string-array>
+
+    <!-- Menu titles -->
+    <string name="menu_laporan_harian">Laporan Harian</string>
+    <string name="menu_program_pakan">Program Pakan</string>
+    <string name="menu_data_kolam">Data Kolam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="keterangan_beri_pakan">Jumlah pakan yang diberikan boleh berbeda dengan program pakan.
+        Sesuaikan dengan nafsu makan ikan.</string>
+</resources>
